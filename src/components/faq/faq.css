@@ -1,0 +1,32 @@
+.faq {
+  margin-bottom: 8rem;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.faq-content {
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.faq-desc {
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.faq-orange {
+  background-color: #ff5555;
+  color: white !important;
+}
+
+.faq-header {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}

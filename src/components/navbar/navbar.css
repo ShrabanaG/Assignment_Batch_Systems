@@ -1,0 +1,44 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  @apply flex  justify-between items-center px-7  h-[60px];
+}
+
+.navbar-content {
+  @apply flex items-center gap-4;
+}
+
+.nav-links {
+  @apply flex items-center gap-4 justify-between;
+}
+
+.nav-link-active {
+  @apply text-activeNasvlink font-clashDisplayBold;
+} */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7rem;
+  height: 60px;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-link-active {
+  color: #ff5555;
+  font-family: clashDisplayBold;
+}

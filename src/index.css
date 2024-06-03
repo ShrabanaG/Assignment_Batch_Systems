@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: clashDisplay;
+  src: url("../public/fonts/ClashDisplayRegular.otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: clashDisplayBold;
+  src: url("../public/fonts/ClashDisplayBold.otf");
 }
+
+body {
+  font-family: clashDisplay;
+  font-weight: 400;
+}
+
+.main-container {
+  margin: 16px;
+  padding: 0 40px 0 40px;
+}
+
+.btn-container,
+.btn-container-transperant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 40px;
+  background-color: #000000;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.btn-container-transperant {
+  background-color: transparent;
+  color: #000000;
+  border: none;
+}
+
+.content-header {
+  color: #ff5555;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.content-subheader {
+  color: #000000;
+  font-size: 2.5rem;
+  font-family: clashDisplayBold;
+  text-transform: capitalize;
+}
+
+.flex-between-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-header {
+  font-size: 1.7rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.footer-subheader-content {
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+/* @layer base {
+  body {
+    @apply font-clashDisplay;
+  }
+}
+
+.main-container {
+  @apply m-2 px-10;
+}
+
+.btn-container {
+  @apply flex justify-center items-center p-2 w-[180px] h-[60px] bg-btnBackground text-btnText;
+} */

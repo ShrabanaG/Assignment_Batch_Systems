@@ -1,0 +1,37 @@
+.hero {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/Hero-background.png");
+  background-repeat: no-repeat;
+  background-position: 100px -10px;
+  background-size: 317px 230px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-family: clashDisplayBold;
+  color: #000;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  /* background-image: url("../../assets/Hero-background.png");
+  background-repeat: no-repeat;
+  background-position: 0 30px;
+  background-size: 317px 230px; */
+}
+
+.hero-btn-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+}

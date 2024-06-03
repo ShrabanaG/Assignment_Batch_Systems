@@ -1,0 +1,30 @@
+.footer {
+  padding: 2rem 2rem 2rem 0;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left .footer-left-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.footer-left .footer-left-item .header {
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+}
+
+.footer .text-field {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

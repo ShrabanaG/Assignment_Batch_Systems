@@ -1,0 +1,27 @@
+.advantages .advantages__item1-content .content-text-header,
+.advantages__item2 .content-text-header {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.advantages .content-text-subheader {
+  line-height: 1.5rem;
+}
+
+.advantages .advantages__item2-img-container,
+.advantages .advantages__item1-img-container {
+  background-image: url("../../assets/Hero-background.png");
+  background-repeat: no-repeat;
+  background-size: 393px 290px;
+}
+
+.advantages .advantages__item2-img-container {
+  background-position: 300px 300px;
+}
+
+.advantages .advantages__item1-img-container {
+  background-position: 40px 230px;
+}

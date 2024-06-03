@@ -1,0 +1,37 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 508px;
+  color: #fff;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("../../assets/download-app.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.banner .banner-header {
+  font-size: 2.8rem;
+  font-family: clashDisplayBold;
+  margin-top: 6rem;
+}
+
+.banner .banner-subheader {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.banner .banner-btn {
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 208px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}

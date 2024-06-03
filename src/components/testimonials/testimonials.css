@@ -1,0 +1,33 @@
+.testimonials__header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials__header .header {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.testimonials__content .item__header {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.testimonials__content .item__content {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.testimonials__content .item__img {
+  margin-top: 1.5rem;
+}
